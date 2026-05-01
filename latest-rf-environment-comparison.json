@@ -1,0 +1,75 @@
+﻿{
+    "generated_at":  "2026-04-30T20:47:20.3784467-05:00",
+    "scope":  "rolling signal/environment delta comparison",
+    "score":  24,
+    "component_scores":  {
+                             "wifi":  18,
+                             "bluetooth":  6,
+                             "sdr":  0
+                         },
+    "interpretation":  "minor signal/environment change",
+    "baseline_mode":  "rolling_sleep_reference",
+    "sample_activity_label":  "up_around_home",
+    "history_samples":  16,
+    "history_activity_counts":  {
+                                    "sleep_window":  16,
+                                    "up_around_home":  5,
+                                    "away":  1
+                                },
+    "history_start_at":  "2026-04-27T05:58:54.4139903-05:00",
+    "history_end_at":  "2026-04-30T04:06:01.4267367-05:00",
+    "sample_at":  "2026-04-30T20:47:15.2120136-05:00",
+    "events":  [
+                   {
+                       "sensor":  "wifi",
+                       "type":  "new_families_vs_history",
+                       "count":  1,
+                       "keys":  [
+                                    "8b:a9:d5:48:d6"
+                                ],
+                       "points":  3,
+                       "note":  "New Wi-Fi families not seen in recent rolling history"
+                   },
+                   {
+                       "sensor":  "wifi",
+                       "type":  "family_rssi_delta_vs_history",
+                       "count":  6,
+                       "examples":  [
+                                        {
+                                            "key":  "e8:29:12:6c:dc",
+                                            "delta_db":  -9
+                                        },
+                                        {
+                                            "key":  "d7:9a:75:97:bc",
+                                            "delta_db":  -18.5
+                                        },
+                                        {
+                                            "key":  "8b:a9:97:e0:90",
+                                            "delta_db":  -8.5
+                                        },
+                                        {
+                                            "key":  "d7:9a:74:97:d9",
+                                            "delta_db":  -27
+                                        },
+                                        {
+                                            "key":  "d7:9a:75:97:b0",
+                                            "delta_db":  -20
+                                        },
+                                        {
+                                            "key":  "8b:a9:98:e0:90",
+                                            "delta_db":  -8.5
+                                        }
+                                    ],
+                       "points":  15,
+                       "note":  "Known Wi-Fi family RSSI changed versus rolling history"
+                   },
+                   {
+                       "sensor":  "bluetooth",
+                       "type":  "strongest_rssi_delta_vs_history",
+                       "delta_db":  -6,
+                       "points":  6,
+                       "note":  "BLE strongest RSSI changed versus rolling history"
+                   }
+               ],
+    "limits":  "This scores combined SDR, Wi-Fi, and Bluetooth signal deltas over time. It is not a literal camera-like image."
+}

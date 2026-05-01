@@ -1,0 +1,40 @@
+﻿{
+    "generated_at":  "2026-04-23T06:03:41.1950721-05:00",
+    "monitor_generated_at":  "2026-04-23T04:18:16.4306858-05:00",
+    "week_generated_at":  "2026-04-20T15:52:41.8565236-05:00",
+    "monitor_summary":  {
+                            "record_count":  124,
+                            "hidden_count":  42,
+                            "alert_count":  58,
+                            "flagged_family_count":  15,
+                            "hidden_named_family_count":  13,
+                            "first_octet_shift_family_count":  15,
+                            "role_flip_family_count":  13,
+                            "controller_like_count":  0,
+                            "persistent_unexplained_family_count":  10,
+                            "unexplained_local_family_count":  6,
+                            "exposure_marker_count":  16,
+                            "tracked_identity_count":  5,
+                            "tracked_present_count":  1,
+                            "tracked_shadow_count":  0,
+                            "sensors":  [
+                                            "moto_g_play___2026",
+                                            "windows"
+                                        ],
+                            "android_sensor_count":  1,
+                            "phone_anchor":  "moto_g_play___2026: ssehorse -28 dBm ch 44",
+                            "interpretation":  "Current sweep includes strong unexplained local families that do not match tracked equipment. Keep them in the unexplained bucket until controlled baselines rule them in or out."
+                        },
+    "week_summary":  {
+                         "sweep_count":  8741,
+                         "alert_count":  373875,
+                         "mac_log_rows":  1181298,
+                         "unique_bssids":  244,
+                         "unique_visible_ssids":  132,
+                         "hidden_record_count":  429635,
+                         "visible_record_count":  751663,
+                         "first_octet_shift_families":  14,
+                         "sufficiency_note":  "This window is long enough to start discussing recurring RF patterns, but conclusions still need careful interpretation."
+                     },
+    "packet_scope":  "Compact BSSID-only technical review packet; not raw monitor-mode packet capture and not the full sealed evidence packet."
+}
