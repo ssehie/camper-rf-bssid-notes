@@ -1,0 +1,7 @@
+{
+    "subject":  "CN=PhoneLink Evidence Signer",
+    "thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+    "not_before":  "2026-04-18T06:36:20.0000000-05:00",
+    "not_after":  "2029-04-18T06:46:19.0000000-05:00",
+    "exported_at":  "2026-05-01T18:20:34.4321092Z"
+}

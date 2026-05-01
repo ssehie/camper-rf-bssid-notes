@@ -1,0 +1,28 @@
+﻿{
+    "generated_at":  "2026-05-01T13:25:10.1319756-05:00",
+    "scope":  "Public RF/BSSID review dump with compact summaries and current evidence-chain status.",
+    "cost":  "No direct cost for local generation. GitHub hosting/storage may be subject to account limits.",
+    "compact_packet_root":  "C:\\PhoneLink\\bssid-packets\\20260501-132508",
+    "compact_zip_path":  "C:\\PhoneLink\\bssid-packets\\bssid-review-packet-20260501-132508.zip",
+    "weekly_packet_root":  "C:\\PhoneLink\\weekly-packets\\20260426-180111",
+    "weekly_zip_path":  "C:\\PhoneLink\\weekly-packets\\weekly-evidence-packet-20260426-180111.zip",
+    "public_repo":  "C:\\PhoneLink\\public-packets\\camper-rf-bssid-notes",
+    "copied_files":  [
+                         "README.md",
+                         "bssid-family-summary.csv",
+                         "current-alert-examples.csv",
+                         "packet-summary.json",
+                         "bssid-review-packet-20260501-132508.zip",
+                         "latest-wifi-monitor-report.json",
+                         "latest-rf-environment-comparison.json",
+                         "evidence-chain.json",
+                         "wifi-array-evidence-latest.json",
+                         "phone-link-evidence-signer.json",
+                         "RF-FIELD-SCAN-PROTOCOL.md"
+                     ],
+    "notes":  [
+                  "Raw full logs remain local unless explicitly shared.",
+                  "Claims are observational; this packet does not prove attribution.",
+                  "Use RF-FIELD-SCAN-PROTOCOL.md for repeatable multi-location collection."
+              ]
+}

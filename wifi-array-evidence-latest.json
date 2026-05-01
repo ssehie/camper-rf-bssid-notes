@@ -1,0 +1,212 @@
+{
+    "generated_at":  "2026-05-01T18:21:05.6035141Z",
+    "case_name":  "wifi-array",
+    "evidence_root":  "C:\\PhoneLink\\evidence\\cases\\wifi-array",
+    "public_cert_path":  "C:\\PhoneLink\\evidence\\public\\phone-link-evidence-signer.cer",
+    "public_cert_metadata":  "C:\\PhoneLink\\evidence\\public\\phone-link-evidence-signer.json",
+    "snapshot_count":  18,
+    "last_snapshot_id":  "20260501T182034Z",
+    "last_collected_at_utc":  "2026-05-01T18:21:04.0979303Z",
+    "chain_continuous":  true,
+    "verified_snapshot_count":  18,
+    "snapshots":  [
+                      {
+                          "snapshot_id":  "20260418T114720Z",
+                          "collected_at_utc":  "2026-04-18T11:47:22.0010468Z",
+                          "manifest_sha256":  "567f6de6061b3badedc3e011cc3d2a5d2a460788987409be59a951a8111fc5bd",
+                          "previous_manifest_sha256":  null,
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T114720Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T114720Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260418T114746Z",
+                          "collected_at_utc":  "2026-04-18T11:47:48.1166902Z",
+                          "manifest_sha256":  "82dbfb4da44096da0d3686b37c145731de75c506884a7e7ecd86c49bc6b5ba36",
+                          "previous_manifest_sha256":  "567f6de6061b3badedc3e011cc3d2a5d2a460788987409be59a951a8111fc5bd",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T114746Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T114746Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260418T124759Z",
+                          "collected_at_utc":  "2026-04-18T12:48:00.6854195Z",
+                          "manifest_sha256":  "224774f5bedd9a8814626d2ded9c52daa9189b701baaa4f5e1a2f98cadf94f65",
+                          "previous_manifest_sha256":  "82dbfb4da44096da0d3686b37c145731de75c506884a7e7ecd86c49bc6b5ba36",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T124759Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T124759Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260418T125728Z",
+                          "collected_at_utc":  "2026-04-18T12:57:29.0797912Z",
+                          "manifest_sha256":  "9f2cd323c0aaea815c45f3d415949270ebde12e0ba55059296e4114ee4b40cd1",
+                          "previous_manifest_sha256":  "224774f5bedd9a8814626d2ded9c52daa9189b701baaa4f5e1a2f98cadf94f65",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T125728Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T125728Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260418T135759Z",
+                          "collected_at_utc":  "2026-04-18T13:57:59.9559270Z",
+                          "manifest_sha256":  "29a91721e859c245cd2e90e454be1082107c9c2ba0b8762bf97a583b3e50c53b",
+                          "previous_manifest_sha256":  "9f2cd323c0aaea815c45f3d415949270ebde12e0ba55059296e4114ee4b40cd1",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T135759Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T135759Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260418T141606Z",
+                          "collected_at_utc":  "2026-04-18T14:16:08.6946909Z",
+                          "manifest_sha256":  "03861365d15d2fe6bc7497a6acea0251416edf15f22f4062cf92f12860240466",
+                          "previous_manifest_sha256":  "29a91721e859c245cd2e90e454be1082107c9c2ba0b8762bf97a583b3e50c53b",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T141606Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T141606Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260418T141848Z",
+                          "collected_at_utc":  "2026-04-18T14:18:49.2083467Z",
+                          "manifest_sha256":  "c0af1ad37a41aff6c5d171a32ff259e7ca3179fa3c99ad2b44dda7ee5beb8a5a",
+                          "previous_manifest_sha256":  "03861365d15d2fe6bc7497a6acea0251416edf15f22f4062cf92f12860240466",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T141848Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T141848Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260418T143852Z",
+                          "collected_at_utc":  "2026-04-18T14:38:53.5440332Z",
+                          "manifest_sha256":  "868cdd08409abe0045d08a0149cbe6d701e8b1f728cdcb69301bff8c803190b7",
+                          "previous_manifest_sha256":  "c0af1ad37a41aff6c5d171a32ff259e7ca3179fa3c99ad2b44dda7ee5beb8a5a",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T143852Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T143852Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260418T182831Z",
+                          "collected_at_utc":  "2026-04-18T18:28:32.7173779Z",
+                          "manifest_sha256":  "06544c4558e55344fc8fdf644fde7863548bf7bed1855d98c5a14c813d9c6b35",
+                          "previous_manifest_sha256":  "868cdd08409abe0045d08a0149cbe6d701e8b1f728cdcb69301bff8c803190b7",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T182831Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260418T182831Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260419T065657Z",
+                          "collected_at_utc":  "2026-04-19T06:56:59.5795595Z",
+                          "manifest_sha256":  "57bb1de35d0a181e27889bea0346205eb278806eaf5d283ee11527835356ced1",
+                          "previous_manifest_sha256":  "06544c4558e55344fc8fdf644fde7863548bf7bed1855d98c5a14c813d9c6b35",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260419T065657Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260419T065657Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260419T222302Z",
+                          "collected_at_utc":  "2026-04-19T22:23:14.6959359Z",
+                          "manifest_sha256":  "83fdfd5237a5b03ef9c63427a782d17919136397a359b22e6b3e3a9eeb9eb89a",
+                          "previous_manifest_sha256":  "57bb1de35d0a181e27889bea0346205eb278806eaf5d283ee11527835356ced1",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260419T222302Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260419T222302Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260420T182642Z",
+                          "collected_at_utc":  "2026-04-20T18:27:17.0716109Z",
+                          "manifest_sha256":  "1244a5005ac8c2eba88854b17b0ca889f341a3ca15fcc307d61a2d9befec942b",
+                          "previous_manifest_sha256":  "83fdfd5237a5b03ef9c63427a782d17919136397a359b22e6b3e3a9eeb9eb89a",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260420T182642Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260420T182642Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260420T222506Z",
+                          "collected_at_utc":  "2026-04-20T22:25:37.6109264Z",
+                          "manifest_sha256":  "6355d14b6825a071aa44c371e9543ce24531e594186e583f108f9830eefadbc8",
+                          "previous_manifest_sha256":  "1244a5005ac8c2eba88854b17b0ca889f341a3ca15fcc307d61a2d9befec942b",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260420T222506Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260420T222506Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260423T170748Z",
+                          "collected_at_utc":  "2026-04-23T17:08:44.0975520Z",
+                          "manifest_sha256":  "51ecc6cffd4a188e951d481f72fc1aa1d214e32559f1ac3d5269e6bdae4de5ae",
+                          "previous_manifest_sha256":  "6355d14b6825a071aa44c371e9543ce24531e594186e583f108f9830eefadbc8",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260423T170748Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260423T170748Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260423T194150Z",
+                          "collected_at_utc":  "2026-04-23T19:42:58.1331064Z",
+                          "manifest_sha256":  "faa09fd08286e9f1bcbf7f6ce412669d19d155e6c46dc0a6a51c6130a60f68f7",
+                          "previous_manifest_sha256":  "51ecc6cffd4a188e951d481f72fc1aa1d214e32559f1ac3d5269e6bdae4de5ae",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260423T194150Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260423T194150Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260424T112219Z",
+                          "collected_at_utc":  "2026-04-24T11:23:08.3375647Z",
+                          "manifest_sha256":  "91cae1fadfadfb52516efe3eabbd86e91f9f9e1baebdf9a5a82bd4e29a51a791",
+                          "previous_manifest_sha256":  "faa09fd08286e9f1bcbf7f6ce412669d19d155e6c46dc0a6a51c6130a60f68f7",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260424T112219Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260424T112219Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260426T230003Z",
+                          "collected_at_utc":  "2026-04-26T23:01:08.7050598Z",
+                          "manifest_sha256":  "1eb7b8cdaef3d4c4fe216a8efc251c8a50a407d4f668908ea1f087b97ab7bee3",
+                          "previous_manifest_sha256":  "91cae1fadfadfb52516efe3eabbd86e91f9f9e1baebdf9a5a82bd4e29a51a791",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260426T230003Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260426T230003Z\\manifest.p7s"
+                      },
+                      {
+                          "snapshot_id":  "20260501T182034Z",
+                          "collected_at_utc":  "2026-05-01T18:21:04.0979303Z",
+                          "manifest_sha256":  "c1aa05c826a4e55695c61f391977152bb7699c9b9c0f1c73a5564e041804d670",
+                          "previous_manifest_sha256":  "1eb7b8cdaef3d4c4fe216a8efc251c8a50a407d4f668908ea1f087b97ab7bee3",
+                          "signer_thumbprint":  "AC9DE7FC8101F24A8BCA4D901916DF694FFA90EC",
+                          "verify_ok":  true,
+                          "file_count":  11,
+                          "manifest_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260501T182034Z\\manifest.json",
+                          "signature_path":  "C:\\PhoneLink\\evidence\\cases\\wifi-array\\snapshots\\20260501T182034Z\\manifest.p7s"
+                      }
+                  ]
+}

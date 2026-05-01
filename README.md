@@ -1,55 +1,52 @@
-# Camper RF / BSSID Review Notes
+﻿# Compact BSSID Review Packet
 
-This repository is a small public review packet from an owned local sensor project.
-The goal is to collect feedback on recurring hidden/named BSSID family patterns and
-to prepare for controlled calibration experiments using owned network hardware.
+Generated: 2026-05-01 13:25:08 -05:00
 
-## Scope
+This packet is a small technical preview for independent review. It is not a raw 802.11 monitor-mode packet capture and it is not the full sealed evidence packet.
 
-- Passive Wi-Fi scan summaries from Windows and Android sensors.
-- Hidden/named sibling BSSID families observed over time.
-- First-octet changes where the remaining BSSID tail bytes stay stable.
-- Current RF/environment comparison metadata from the local PhoneLink stack.
-- No deauthentication, association attempts, credential capture, or interaction with
-  third-party networks.
+## What This Shows
 
-## Current Packet
+- Passive Wi-Fi scan summaries from the local sensor stack.
+- Hidden/named sibling BSSID families.
+- First-octet changes while the remaining BSSID tail bytes stay stable.
+- Example families where hidden BSSIDs appear adjacent to visible private SSIDs.
+- Current alert examples with family keys, SSID labels, first-octet sets, sensors, and RSSI where available.
 
-The included compact packet was generated on 2026-04-23 from:
+## Current Monitor Snapshot
 
-- 8,741 Wi-Fi sweeps
-- 1,181,298 BSSID observations
-- 244 unique BSSIDs
-- 429,635 hidden records
-- 751,663 visible records
-- 14 first-octet-shift families in the weekly summary
+- Monitor generated: 2026-05-01T13:20:07.5483846-05:00
+- Records in latest sweep: 129
+- Hidden records in latest sweep: 47
+- Alerts in latest sweep: 49
+- First-octet-shift families: 15
+- Role-flip families: 13
+- Sensors: moto_g_play___2026; windows
+- Phone anchor: moto_g_play___2026: ssehorse -25 dBm ch 44
 
-The current live monitor snapshot copied into this packet showed:
+## Week Snapshot
 
-- 117 Wi-Fi records
-- 44 hidden records
-- 52 alerts
-- 13 hidden/named family groups
-- 13 first-octet-shift groups
-- 13 role-flip groups
-- 8 persistent unexplained families
+- Week report generated: 2026-04-20T15:52:41.8565236-05:00
+- Sweeps: 8741
+- BSSID observations: 1181298
+- Unique BSSIDs: 244
+- Hidden records: 429635
+- Visible records: 751663
+- First-octet-shift families: 14
+
+## Reviewer Ask
+
+Please sanity-check whether these hidden/named sibling BSSID families and first-octet role shifts are normal managed Wi-Fi infrastructure in your local environment, or whether the pattern warrants deeper investigation.
+
+Specific questions:
+
+1. Do you routinely see hidden and visible BSSIDs sharing the same tail bytes while only the first octet changes?
+2. Do you see this around ordinary private SSIDs in your own area?
+3. Is there a normal controller/mesh/hotspot/vendor behavior that explains this pattern?
+4. What additional capture or metadata would make the observation more useful?
 
 ## Files
 
-- `packet-summary.json` - compact summary from the original BSSID review packet.
-- `bssid-family-summary.csv` - recurring BSSID family summary.
-- `current-alert-examples.csv` - example alerts from the packet.
-- `latest-wifi-monitor-report.json` - current full Wi-Fi monitor report at packet creation time.
-- `latest-rf-environment-comparison.json` - current RF/environment comparison snapshot.
-- `bssid-review-packet-20260423-060340.zip` - original compact packet archive.
-
-## Reviewer Questions
-
-1. Are hidden and visible BSSIDs sharing stable tail bytes with first-octet shifts a normal managed Wi-Fi pattern in comparable environments?
-2. Do the repeated hidden/named sibling groups look like ordinary controller, mesh, hotspot, or property Wi-Fi infrastructure?
-3. What additional metadata would best distinguish managed infrastructure from unusual local RF behavior?
-4. Would controlled daily calibration SSIDs from owned equipment be useful as timestamped RF stimuli for comparing hidden-network reactions?
-
-## Next Experiment
-
-The next planned step is to add an owned OpenWrt-capable router as a controlled sensor and calibration source. It will emit one documented calibration SSID during randomly selected windows, then collect synchronized router logs, Wi-Fi scans, SDR snapshots, and PhoneLink presence state.
+- bssid-family-summary.csv
+- current-alert-examples.csv
+- packet-summary.json
+- README.md
